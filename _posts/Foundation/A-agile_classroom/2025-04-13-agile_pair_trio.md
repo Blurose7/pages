@@ -1,35 +1,63 @@
 ---
-toc: True
-layout: post
-data: agile
+layout: post 
 title: Pair/Trio Programming
-description: Establishing individual and pair/trio coding habits in the classroom by altering snake game.
-categories: ['Collaboration']
+description: Establishing individual and pair/trio coding habits in the classroom.
 permalink: /agile/pair_trio
 breadcrumb: True 
 ---
 
-## Pair/Trio Programming Overview
+## Overview
 
-The provided activities evaluates students in a Computer Science Project-based learning course. It focuses on **planning**, **code**, **debugging** and **reviews** to create a holistic profile of each student's computer science and software engineering skills.  It is best to work on these in pairs.
-
----
-
-## 🐍 Snake Game Debugging Session
-
-Transform pair/trio programming from theory to practice with an interactive Snake Game debugging challenge. This hands-on activity walks through the entire collaboration workflow while fixing real code issues.
+The provided outline evaluates students in a Computer Science Project-based learning course. It focuses on **planning**, **code**, **debugging** and **reviews** to create a holistic profile of each student's computer science and software engineering skills.  It is best to work on these in pairs.
 
 ---
 
-### Problem - Debug Snake Game
+## Review Session
 
-Your team has inherited a Snake Game with multiple needs that prevent could improve gameplay. Your mission: work as a pair/trio to identify, document, and improve these issues using proper Agile methodologies.
+Transform pair/trio programming from theory to practice by planning and debugging a task. This hands-on activity walks through the entire collaboration workflow while fixing or developing real code GitHub issues.
 
-**xSnake Game Improvements:**
+**Use the remainder of this lesson as an outline** Adapt for your course of action as related to your team project.
 
-- Background and Color could be improved
+---
+
+### From Theory to Practice
+
+```mermaid
+flowchart LR
+    A[📚 Agile Concepts] --> B[🎯 Real Project]
+    B --> C[👥 Pair Programming]
+    C --> D[🐍 Snake Game Debug]
+    
+    A1[Planning] --> A
+    A2[Code Review] --> A
+    A3[Debugging] --> A
+    A4[Collaboration] --> A
+    
+    D --> D1[🎮 Game Testing]
+    D --> D2[🔍 Issue Discovery]
+    D --> D3[🛠️ Code Fixes]
+    D --> D4[✅ Validation]
+    
+    style A fill:#e1f5fe,color:#01579b
+    style D fill:#f3e5f5,color:#4a148c
+    style C fill:#e8f5e8,color:#1b5e20
+```
+
+**Ready to apply your skills?** The left side of chart is Agile Skill development, the right side will be adapted to your specific task.
+
+---
+
+### Illustrative Problem - Debug Snake Game
+
+Your team has inherited a Snake Game with multiple issues that could improve gameplay. Your mission: work as a pair/trio to identify, document, and improve these issues using proper Agile methodologies.
+
+*Note: While we use Snake Game as our example, you should adapt these techniques to your actual team project.*
+
+**Snake Game Planned Improvements:**
+
+- Background and colors could be improved
 - Apple is white and could be red
-- Score could look better
+- Score display could look better
 - Game speed could have more steps
 - ...
 
@@ -37,13 +65,13 @@ Your team has inherited a Snake Game with multiple needs that prevent could impr
 
 ### Activation - Learn How to Play Snake
 
-Try debugging, to see where code is that activates features
+Before diving into debugging, familiarize yourself with the game mechanics. Try playing the game to see where the code activates features and understand the expected behavior.
 
 ---
 
 ### Demonstration - Workflow with Mermaid Diagram
 
-Follow this debugging workflow as a team:
+Now that you understand the game, let's establish a systematic debugging workflow. Follow this debugging workflow as a team:
 
 ```mermaid
 flowchart TD
@@ -77,6 +105,8 @@ flowchart TD
 
 ### Application - Debugging Practice Session
 
+With the workflow established, it's time to put theory into practice. Work through these structured steps to debug your project systematically.
+
 #### Step 1: Create Issues for Each Bug Type
 
 Use this template for GitHub Issues:
@@ -102,15 +132,17 @@ Use this template for GitHub Issues:
 
 #### Step 2: Burndown Planning
 
-Create a burndown list for your debugging session:
+Organize your debugging tasks with time estimates and assignments. Create a burndown list for your debugging session:
 
 | Bug Priority | Issue | Estimated Time | Assigned To | Status |
 |--------------|-------|----------------|-------------|---------|
-| 🔴 High | CHange Apple | 30 min | Pair A | To Do |
+| 🔴 High | Change Apple Color | 30 min | Pair A | To Do |
 | 🟡 Medium | Background Modification | 20 min | Pair B | To Do |
-| 🟢 Low | Score display update | 15 min | Trio | To Do |
+| 🟢 Low | Score Display Update | 15 min | Trio | To Do |
 
 #### Step 3: Live Share Debugging Protocol
+
+Establish clear roles and responsibilities for effective pair programming. Use this rotation system to ensure everyone participates actively.
 
 **Driver/Navigator Rotation:**
 
@@ -120,23 +152,18 @@ Create a burndown list for your debugging session:
 
 **Debugging Checklist:**
 
-- [ ] Set breakpoint at change location
-- [ ] Step through code with step or continue
+- [ ] Set breakpoint at target location
+- [ ] Step through code using step or continue
 - [ ] Check variable values at each step
-- [ ] Identify the area to change
+- [ ] Identify the area that needs changes
 - [ ] Discuss fix with team before implementing
-- [ ] Test change immediately after implementation
+- [ ] Test changes immediately after implementation
 
 ---
 
-**Why?**
-These steps ensure your work is organized, efficient, and quality. The provided infographics serve as examples of how your team should organize and divide work.
+### Assessment - Snake Game Debugging Evaluation
 
-## Start Learning to Code Here:
-- [Snake Game Lesson](/snakegaming/lesson.html)
-- [Snake Game Hacks](/snakegaming/hacks.html)
-
-### Snake Game Debugging Evaluation Table
+Use this evaluation table to track your team's skill development throughout the debugging process. This assessment helps identify strengths and areas for improvement.
 
 Track your team's performance through the debugging session:
 
@@ -162,6 +189,8 @@ Track your team's performance through the debugging session:
 ---
 
 ### Reflection Questions
+
+Take time to process your learning experience. Reflection is crucial for improving your collaborative debugging skills.
 
 After completing the Snake Game debugging session:
 
